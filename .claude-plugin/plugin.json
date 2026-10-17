@@ -1,0 +1,10 @@
+{
+  "name": "web-builder",
+  "version": "0.1.0",
+  "description": "Skills for building websites, landing pages and microsites with Claude Code: idea shaping, planning vs. minimal builds, design variations, site teardowns, Apple-style motion and design, security and launch checks.",
+  "author": {
+    "name": "Reetish"
+  },
+  "repository": "https://github.com/reetish73/web-builder",
+  "skills": "./skills"
+}

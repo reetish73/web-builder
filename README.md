@@ -16,11 +16,22 @@ Claude Code skills for building websites, landing pages and microsites. Private 
 | `animation-performance` | Janky or dropped-frame animation | emilkowalski/skills |
 | `review-animations` | Only when called: `/web-builder:review-animations` | emilkowalski/skills |
 | `pick-ui-library` | Only when called: `/web-builder:pick-ui-library` | emilkowalski/skills |
+| `scroll-craft` | Scroll-driven, cinematic or 3D-scroll sites. Asks before spending kie.ai credits | scroll-craft |
+| `supabase` | Any Supabase work: auth, RLS, migrations, Edge Functions, debugging | supabase/agent-skills |
+| `supabase-postgres-best-practices` | Writing or tuning Postgres queries, indexes and schemas | supabase/agent-skills |
+| `stripe-best-practices` | Planning or building a Stripe integration | stripe/ai |
+| `playwright-cli` | Testing a site in a scripted browser, screenshots, Playwright tests | playwright-cli |
 | `debugging-and-error-recovery` | Errors, failing builds, broken behaviour | agent-skills |
 | `security-and-hardening` | Forms, auth, user data, third-party integrations | agent-skills |
 | `shipping-and-launch` | Preparing to deploy | agent-skills |
 
 **Precedence rule:** plan first for multi-page or data-handling work; otherwise ship the minimum (ponytail). When a plan exists, build each task the ponytail way. Validation, auth, error handling, security and accessibility are never cut.
+
+### Tools some skills need (install once)
+
+- `scroll-craft`: Node, a full ffmpeg build, Chrome, and `npm i playwright-core` in each build project. `node <skill>/scripts/doctor.mjs` checks them. Generating images or video also needs a `KIE_AI_API_KEY` in the project's `.env` (paid); building from your own photos needs no key.
+- `playwright-cli`: `npm install -g @playwright/cli@latest`.
+- `supabase`: works best with the Supabase CLI or the Supabase connector.
 
 ## Install and update (Claude Code)
 

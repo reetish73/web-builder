@@ -27,6 +27,30 @@ Source: https://github.com/emilkowalski/skills, commit `2d228630ba1446365f614a10
 - `skills/animate/`, `skills/animation-performance/`: removed references to skills not included (`improve-animations`, `find-animation-opportunities`, `animate-expo`).
 - `skills/review-animations/`, `skills/pick-ui-library/`: otherwise unchanged.
 
+## From nateherkai/scroll-craft (MIT, Copyright (c) 2026 Nate Herk)
+
+Source: https://github.com/nateherkai/scroll-craft, commit `75d81f74e83692add18cd7a8a8e078b8a887a579` (2026-09-30). License: `licenses/scroll-craft.LICENSE`.
+
+- `skills/scroll-craft/`: narrowed the trigger description to scroll-driven work (dropped "premium hero", "Apple-style landing page", "interactive landing page", "this looks like a template") and pointed ordinary pages to ponytail and design-variations; removed the `allowed-tools` line so normal permission prompts apply; added a "Spending and uploads need approval" section (approve kie.ai credits before generating; ask before uploading the user's files as references). Engine, scripts and references unchanged.
+
+## From supabase/agent-skills (MIT, Copyright (c) 2026 Supabase)
+
+Source: https://github.com/supabase/agent-skills, commit `c9be0e931b7930f7d02126d04774d904c381e7d7` (2026-10-02). License: `licenses/supabase-agent-skills.LICENSE`.
+
+- `skills/supabase/`, `skills/supabase-postgres-best-practices/`: unchanged.
+
+## From stripe/ai (MIT, Copyright (c) 2024–2025 Stripe)
+
+Source: https://github.com/stripe/ai, commit `2f68b6e13ceab52310058fd60d3ea24adaf8df32` (2026-10-19), folder `skills/stripe-best-practices`. License: `licenses/stripe-ai.LICENSE`.
+
+- `skills/stripe-best-practices/`: added one paragraph asking to confirm Stripe account availability first (India: Razorpay as the usual alternative). The Claude plugin's hooks and usage reporting are not included. Upstream syncs this skill from Stripe's docs; re-copy it when the API version moves on.
+
+## From microsoft/playwright-cli (Apache-2.0, Copyright (c) Microsoft Corporation)
+
+Source: https://github.com/microsoft/playwright-cli, commit `b85c7a736bb473bf55b584e54a09ffa698d6d871` (2026-09-28). License: `licenses/playwright-cli.LICENSE`.
+
+- `skills/playwright-cli/`: added a paragraph under "Open parameters": fresh in-memory browser by default, attach to the user's own browser or use a persistent profile only when asked, keep `state-save` files out of git. Requires the CLI: `npm install -g @playwright/cli@latest`.
+
 ## Original to this repo
 
 - `skills/design-variations/`: written from scratch. The idea of three parallel variations saved as numbered files was inspired by superdesigndev/superdesign; none of its text or code is used.

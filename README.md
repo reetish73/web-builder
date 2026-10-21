@@ -1,6 +1,6 @@
 # web-builder
 
-Claude Code skills for building websites, landing pages and microsites. Private plugin, installed through [reetish-marketplace](https://github.com/nofomojustfafo/reetish-marketplace).
+Claude Code skills for building websites, landing pages and microsites. Private plugin, installed through [reetish-marketplace](https://github.com/reetish73/reetish-marketplace).
 
 ## Skills
 
@@ -38,7 +38,7 @@ Claude Code skills for building websites, landing pages and microsites. Private 
 One time:
 
 ```bash
-claude plugin marketplace add nofomojustfafo/reetish-marketplace
+claude plugin marketplace add reetish73/reetish-marketplace
 claude plugin install web-builder@reetish-marketplace
 ```
 
